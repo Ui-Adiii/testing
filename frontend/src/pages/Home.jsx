@@ -6,10 +6,12 @@ import IndustriesWeServe from './IndustriesWeServe'
 import CaseStudiesSection from './CaseStudiesSection'
 import CommunityContactSection from './CommunityContactSection'
 import FooterWithNewsletter from './FooterWithNewsletter'
+import Popup from '@/components/PopUp'
 
 const App = () => {
   return (
     <div className='w-full'>
+      <Popup/>
       <Hero />
       <WhatWeDoSection />
       <BlockchainServicesSection />
